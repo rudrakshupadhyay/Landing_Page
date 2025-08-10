@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button{
+    color: white;
+    background-color: #3882F6;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 30px 10px;
+    margin-top: 10px;
+}
+.top{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    /* min-height: 60vh; */
+    background-color: #1F2937;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px 150px 100px;
+    
+}
+.logo{
+    font-size: 24px;
+    font-weight: 900;
+    
+}
+.top1{
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+    
+}
+.top2{
+    display: flex;
+    gap: 100px;
+    
+} 
+.menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 2rem 20rem;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.C1{
+    max-width: 150px;
+    font-size: large;
+    text-align: center;
+    color: rgb(65, 64, 64);
+}
+.mid-heading{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgb(45, 150, 236);
+    border-radius: 15px;
+    background-color: transparent;
+    margin-bottom: 5px;
+}
+
